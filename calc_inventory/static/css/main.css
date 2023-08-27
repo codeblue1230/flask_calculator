@@ -49,9 +49,9 @@ h3 {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 270px) {
     #calc_bg {
-        padding: 1px;
+        padding: 5px;
     }
 }
 
