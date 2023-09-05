@@ -6,6 +6,7 @@ body {
     text-align: center;
     height: 100vh;
     background-color: rgb(255, 221, 176);
+    overflow: hidden;
 }
 
 #calc_bg {
@@ -16,6 +17,7 @@ body {
     border-radius: 5px;
     margin: 15px 0 15px 0;
     max-height: 100%;
+    overflow-y: auto;
 }
 
 input {
@@ -24,6 +26,7 @@ input {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
+    max-width: 100%;
 }
 
 #input2 {
@@ -37,6 +40,7 @@ button {
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
+    max-width: 100%;
 }
 
 button:hover {

@@ -16,4 +16,4 @@ class Calculator():
         if self.num2 != 0:
             return self.num1 / self.num2
         else:
-            raise ValueError("Division by zero is not allowed.")
+            return "Division by zero is not allowed."
